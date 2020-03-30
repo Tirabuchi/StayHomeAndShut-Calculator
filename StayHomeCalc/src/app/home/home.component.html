@@ -1,0 +1,35 @@
+<p>home works!</p>
+<div class="flexColCent w100">
+
+    <form [formGroup]="pageForm" (ngSubmit)="onSubmit()" (ngReset)="onReset()">
+  
+
+        <mat-form-field class="w100">
+            <mat-label>Densità (persone/kmq)</mat-label>
+            <input matInput type="number" min="0" formControlName="density">
+          </mat-form-field>
+
+          <mat-form-field class="w100">
+            <mat-label>Tempo di osservazione (minuti al giorno)</mat-label>
+            <input matInput type="number" min="0" formControlName="obsTime">
+          </mat-form-field>
+
+          <mat-form-field class="w100">
+            <mat-label>Tempo in cui se possono far vedè (minuti)</mat-label>
+            <input matInput type="number" min="0" formControlName="outTime">
+          </mat-form-field>
+
+          <mat-form-field class="w100">
+            <mat-label>Ogni quanto (giorni)</mat-label>
+            <input matInput type="number" min="0" formControlName="period">
+          </mat-form-field>
+
+          <button mat-button type="reset">Reset</button>
+
+          <button mat-raised-button color="primary" type="submit">Calcola!</button>
+      </form>
+
+<div *ngIf="showResult !== null">Hai il {{showResult}}% di probabilità di non vedere nessuno!</div>
+
+    </div>
+   

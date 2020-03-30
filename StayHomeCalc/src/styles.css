@@ -1,0 +1,279 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/*********** base CSS ***************/
+
+.flex {
+	display: flex;
+}
+.flexCent {
+	display: flex;
+	justify-content: center;
+}
+.flexCentCent {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.flexCol {
+	display: flex;
+	flex-direction: column;
+}
+.flexColCent {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.flexColCent {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.justStart {
+	justify-content: flex-start;
+}
+.justEnd {
+	justify-content: flex-end;
+}
+.justSpaceBetween {
+	justify-content: space-between;
+}
+.justSpaceAround {
+	justify-content: flex-start;
+}
+.h100 {
+	height: 100%;
+}
+.w100 {
+   width: 100%;
+}
+.w10 {
+   width: 10%;
+}
+.w20 {
+	width: 20%;
+ }
+.w30 {
+	width: 30%;
+ }
+.w40 {
+	width: 40%;
+ }
+.w50 {
+	width: 50%;
+}
+.w60 {
+	width: 60%;
+}
+.w70 {
+	width: 70%;
+ }
+.w80 {
+	width: 80%;
+ }
+.w90 {
+	width: 90%;
+ }
+.w100-1 {
+	width: calc(100% - 1em);
+}
+
+.centerText {
+	text-align: center;
+}
+.flexWrap {
+	flex-wrap: wrap;
+}
+
+/******* spacing ********/
+.mar1 {
+	margin: 1em;
+}
+.mar2 {
+	margin: 2em;
+}
+.mar3 {
+	margin: 3em;
+}
+.mar4 {
+	margin: 4em;
+}
+.mar5 {
+	margin: 5em;
+}
+
+.Tmar1 {
+	margin-top: 1em;
+}
+.Tmar2 {
+	margin-top: 2em;
+}
+.Tmar3 {
+	margin-top: 3em;
+}
+.Tmar4 {
+	margin-top: 4em;
+}
+.Tmar5 {
+	margin-top: 5em;
+}
+.Rmar1 {
+	margin-right: 1em;
+}
+.Rmar2 {
+	margin-right: 2em;
+}
+.Rmar3 {
+	margin-right: 3em;
+}
+.Rmar4 {
+	margin-right: 4em;
+}
+.Rmar5 {
+	margin-right: 5em;
+}
+.Lmar1 {
+	margin-left: 1em;
+}
+.Lmar2 {
+	margin-left: 2em;
+}
+.Lmar3 {
+	margin-left: 3em;
+}
+.Lmar4 {
+	margin-left: 4em;
+}
+.Lmar5 {
+	margin-left: 5em;
+}
+.Bmar1 {
+	margin-bottom: 1em;
+}
+.Bmar2 {
+	margin-bottom: 2em;
+}
+.Bmar3 {
+	margin-bottom: 3em;
+}
+.Bmar4 {
+	margin-bottom: 4em;
+}
+.Bmar5 {
+	margin-bottom: 5em;
+}
+
+.pad1 {
+	padding: 1em;
+}
+.pad2 {
+	padding: 2em;
+}
+.pad3 {
+	padding: 3em;
+}
+.pad4 {
+	padding: 4em;
+}
+.pad5 {
+	padding: 5em;
+}
+
+.Tpad1 {
+	padding-top: 1em;
+}
+.Tpad2 {
+	padding-top: 2em;
+}
+.Tpad3 {
+	padding-top: 3em;
+}
+.Tpad4 {
+	padding-top: 4em;
+}
+.Tpad5 {
+	padding: 5em;
+}
+.Rpad1 {
+	padding-right: 1em;
+}
+.Rpad2 {
+	padding-right: 2em;
+}
+.Rpad3 {
+	padding-right: 3em;
+}
+.Rpad4 {
+	padding-right: 4em;
+}
+.Rpad5 {
+	padding-right: 5em;
+}
+.Lpad1 {
+	padding-left: 1em;
+}
+.Lpad2 {
+	padding-left: 2em;
+}
+.Lpad3 {
+	padding-left: 3em;
+}
+.Lpad4 {
+	padding-left: 4em;
+}
+.Lpad5 {
+	padding-left: 5em;
+}
+.Bpad1 {
+	padding-bottom: 1em;
+}
+.Bpad2 {
+	padding-bottom: 2em;
+}
+.Bpad3 {
+	padding-bottom: 3em;
+}
+.Bpad4 {
+	padding-bottom: 4em;
+}
+.Bpad5 {
+	padding-bottom: 5em;
+}
+.spacer1 {
+	width: 100%;
+	height: 1em;
+}
+.spacer2 {
+	width: 100%;
+	height: 2em;
+}
+.spacer3 {
+	width: 100%;
+	height: 3em;
+}
+.spacer4 {
+	width: 100%;
+	height: 4em;
+}
+.spacer5 {
+	width: 100%;
+	height: 5em;
+}
+.row1 {
+	height: 50em;
+}
+.row2 {
+	height: 40em;
+}
+.row3 {
+	height: 30em;
+}
+.row4 {
+	height: 20em;
+}
+.row5 {
+	height: 10em;
+}
